@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/slingModel" mode="merge"/>
+    <filter root="/content/slingModel" mode="merge"/>
+    <filter root="/content/dam/slingModel" mode="merge"/>
+    <filter root="/content/experience-fragments/slingModel" mode="merge"/>
+</workspaceFilter>

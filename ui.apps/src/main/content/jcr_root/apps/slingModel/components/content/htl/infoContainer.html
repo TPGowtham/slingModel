@@ -1,0 +1,16 @@
+<sly data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}" 
+    data-sly-call="${clientLib.all @ categories='slingModel.content.infoContainer'}" />
+
+<div class="infoContainer">
+<div data-sly-use.m="com.adobe.core.models.SlingModel">
+   <ul data-sly-list.info="${m.infoList}">
+      <div class="row">
+         <div class="venture-block">
+            <span class="venture-title">${info.Title}</span>
+            <p class="venture-description"> ${info.Description}</p>
+            <a href=${info.Link} target="_blank">${info.Page}</a>
+         </div>
+      </div>
+   </ul>
+</div>
+</div>

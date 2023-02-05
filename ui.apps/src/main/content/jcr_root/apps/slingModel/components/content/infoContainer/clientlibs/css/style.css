@@ -1,0 +1,50 @@
+*
+{
+    box-sizing:border-box;
+}
+    .venture-block
+{
+
+      float:left;
+      width:30%;
+    padding:50px;
+}
+.v
+{
+
+      float:left;
+      width:33.33%;
+    padding:50px;
+}
+a
+{
+    color:white;
+    text-decoration:none;
+}
+b
+.row::after{
+    content:"";
+    clear:both;
+    background: #1d264d;
+}
+.venture-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    margin-top: 35
+px;
+}
+.venture-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.93;
+    letter-spacing: .3px;
+}
+.infoContainer
+{
+    font-family: 'Roboto',sans-serif;
+    background-color:#121a38;
+    color:white;
+}
+
